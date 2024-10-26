@@ -1,0 +1,51 @@
+
+header {
+    font-family: 'Arial', sans-serif;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+
+  .animate-container {
+    width: 160px; 
+    display: flex;
+    overflow: hidden;
+  }
+  
+ 
+  .animate-marquee {
+    animation: marquee 8s linear infinite;
+  }
+  
+  .animate-marquee.delay-1000 {
+    animation-delay: 1s;
+  }
+  
+  .animate-marquee.delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    33% {
+      transform: translateX(0);
+    }
+    66% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+ 
+  a {
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #3b82f6;
+  }
+  
