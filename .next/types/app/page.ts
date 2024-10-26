@@ -1,4 +1,4 @@
-// File: /Users/macbook/Documents/Scene-Stats/app/page.js
+// File: D:\projects\Scene-Stats\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

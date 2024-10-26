@@ -1,4 +1,4 @@
-// File: /Users/macbook/Documents/Scene-Stats/app/layout.js
+// File: D:\projects\Scene-Stats\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
